@@ -1,0 +1,17 @@
+<h1>Hello There! Welcome to homework 2!</h1>
+<p>What a beautiful homepage (thanks, I made it myself).</p>
+<p>Good thing this isn't the rails design decal.</p>
+
+
+<h1>Question 5</h1>
+
+<%= form_tag latin_path do %>
+  <%= label_tag :name, "Your Name here!" %>
+  <%= text_area_tag :name %>
+  <%= label_tag :adjective, "An adjective here!" %>
+  <%= text_area_tag :adjective %>
+  <%= submit_tag "Stringify!" %>
+<% end %>
+
+<h1>What are you?</h1>
+<%= @text %>
