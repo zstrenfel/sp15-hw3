@@ -75,7 +75,7 @@ Don't worry about blank form edge cases, and don't worry about formatting.
 You're done! Whew. Time to submit!
   Run these commands
   ```
-  git add .
+  git add -A
   git commit -am "whatever message you want"
   ```
   Create a new repository in your Github account called hw2-sp15.  Follow the instructions on how to push up an existing repository then fill out this google doc http://goo.gl/forms/BfE17r574v
