@@ -27,7 +27,7 @@ Here, we're going to look into a post request.
 If you look closely at the code, you'll see a bunch of confusing code like this:
 
 ```
-<%= form_tag latin_path do... %>
+<%= form_tag stringify_path do... %>
 ```
 Don't worry if this is confusing to you. We'll be covering forms/forms creation later on. What #is# important is that a form POSTS a request to a path.
 
