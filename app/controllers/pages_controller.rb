@@ -1,13 +1,15 @@
 class PagesController < ApplicationController
   def home
+    # @baz = Foobar.baz ["1", "2", "3", "3", "4", "5", "10", "11", "100"]
   end
 
-  def latin
-    if !params[:name].nil? || !params[:adjective].nil?
-      @text = "#{params[:name]} is so #{params[:adjective]}"
-    else
-      @text = "You are nothing!"
-    end
-    render 'home'
+  def stringify
+    @text = "You are nothing!"
+  end
+
+  def age
+  end
+
+  def person
   end
 end

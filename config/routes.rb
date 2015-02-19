@@ -3,8 +3,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   root 'pages#home'
-
-  post :latin, to: 'pages#latin'
+  get 'age', to: 'pages#age'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
