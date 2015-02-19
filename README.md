@@ -11,7 +11,7 @@ This is due at the beginning of the next class.
 ## To start:
 To start everything off, clone this repository. Run this command
 ```
-git clone this_url
+git clone https://github.com/rails-decal/sp15-hw2
 ```
 Afterwards, change directory into the folder and run
 ```
