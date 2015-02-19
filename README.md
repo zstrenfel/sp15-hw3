@@ -9,10 +9,14 @@ Per usual, Google is also your best friend (it's probably alot smarter than us).
 This is due at the beginning of the next class.
 
 ## To start:
-To start everything off, clone this repository. Run this command
+To start everything off, fork this repository - there should be a fork button on the top right corner of the repo.
+Fork the repository to your own!
+
+Run this command to clone this repository
 ```
-git clone https://github.com/rails-decal/sp15-hw2
+git clone https://github.com/your_username/sp15-hw2
 ```
+
 Afterwards, change directory into the folder and run
 ```
 rails server
@@ -75,8 +79,6 @@ Don't worry about blank form edge cases, and don't worry about formatting.
 You're done! Whew. Time to submit!
   Run these commands
   ```
-  git remote remove origin
-  git remote add origin your_git_repo_url
   git add -A
   git commit -am "whatever message you want"
   ```
