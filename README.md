@@ -75,6 +75,8 @@ Don't worry about blank form edge cases, and don't worry about formatting.
 You're done! Whew. Time to submit!
   Run these commands
   ```
+  git remote remove origin
+  git remote add origin your_git_repo_url
   git add -A
   git commit -am "whatever message you want"
   ```
