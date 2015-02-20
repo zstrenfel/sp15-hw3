@@ -12,7 +12,7 @@ This is due at the beginning of the next class.
 To start everything off, fork this repository - there should be a fork button on the top right corner of the repo.
 Fork the repository to your own!
 
-Run this command to clone this repository <b>after you fork</b>
+Run this command to clone this repository <b>after you fork:</b>
 ```
 git clone https://github.com/your_username/sp15-hw2
 ```
@@ -28,14 +28,14 @@ This should start up your server. But wait...it's broken. What's going on? Route
 ### Question 1
 Here, we're going to look into a post request.
 
-If you look closely at the code, you'll see a bunch of confusing code like this:
+If you look closely at the code at home.html.erb, you'll see a bunch of confusing code like this:
 
 ```
 <%= form_tag stringify_path do... %>
 ```
 Don't worry if this is confusing to you. We'll be covering forms/forms creation later on. What #is# important is that a form POSTS a request to a path.
 
-Good thing we have you here to fix things up! Route a path in the routes.rb file so that when you try to load the page you don't error out. (Hint: if you examine the form_tag, you'll see that the name of the path we want has the word 'stringify' in it.)
+Good thing we have you here to fix things up! Route a path in the routes.rb file so that when you try to load the page you route to the <em>stringify</em> method in pages_controller.
 
 Now that we've gone through that hassle, we now face our second problem. If you try to submit the form, you get a views error message (Missing template pages/stringify)!
 
