@@ -62,7 +62,7 @@ For example:
 
 ["1", "2", "2", "2", "3", "4", "5", "10"] also returns 10.
 
-If you uncomment our code, you should see the result under Question 1 of the html page.
+If you uncomment our code, you should see the result under Question 2 of the html page.
 ### Question 3
 
 Now we're going to look at more routing + creating classes!
