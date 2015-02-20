@@ -12,7 +12,7 @@ This is due at the beginning of the next class.
 To start everything off, fork this repository - there should be a fork button on the top right corner of the repo.
 Fork the repository to your own!
 
-Run this command to clone this repository
+Run this command to clone this repository <b>after you fork</b>
 ```
 git clone https://github.com/your_username/sp15-hw2
 ```
