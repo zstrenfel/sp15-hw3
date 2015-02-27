@@ -73,7 +73,7 @@ Now we're going to look at more routing + creating classes!
 
 If you look at Question 3, you'll see that we have another form! However if you submit it, you'll get an error message telling you that no route matches the request. Fix the bug! Also, change the route in routes.rb such that the /age url is directed to the <b>person</b> method in pages_controller, rather than the age method.
 
-Under /controllers/concerns, create a new Person class whose initialize method accepts a name and age, and also creates an instance variable <b>nickname</b> that is the first four letters of their name. The person class should have an method called <b>introduce</b> that returns a string with the person's name and age. The personal class should also have a method <b>birth_year</b> that calculates what year they were born, given their age, and a method <b>nickname</b> that returns their nickname.
+Under /controllers/concerns, create a new Person class whose initialize method accepts a name and age, and also creates an instance variable <b>nickname</b> that is the first four letters of their name. The person class should have a method called <b>introduce</b> that returns a string with the person's name and age. The personal class should also have a method <b>birth_year</b> that calculates what year they were born, given their age, and a method <b>nickname</b> that returns their nickname.
 
 Using the name and age submitted from the form, create a person object. Modify person.html.erb such that you display a person's introduction, birth year, and nickname.
 
@@ -87,3 +87,16 @@ You're done! Whew. Time to submit!
   git commit -am "whatever message you want"
   ```
   Create a new repository in your Github account called hw2-sp15.  Follow the instructions on how to push up an existing repository then fill out this google doc http://goo.gl/forms/BfE17r574v
+
+
+
+
+
+part 3
+<%= form_tag age_path, method: :put do %>
+  <%= label_tag :name, "Your name:" %>
+  <%= text_area_tag :name %>
+  <%= label_tag :age, "Your age:" %>
+  <%= text_area_tag :age %>
+  <%= submit_tag "Submit!" %>
+<% end %>
